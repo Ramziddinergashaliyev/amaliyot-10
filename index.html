@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amaliyot-10</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+
+  </head>
+  <body>
+    <div class="back-top">
+      <a href="#hero">
+        <i class="fa-solid fa-arrow-up-long"></i>
+      </a>
+    </div>
+
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav df">
+          <div class="header__nav__logo">
+            <a href="index.html">Logo</a>
+          </div>
+          <div class="header__nav__right">
+            <ul class="header__nav__right__list df">
+              <li class="header__nav__right__list__item">
+                <a href="#hero">Home</a>
+              </li>
+              <li class="header__nav__right__list__item">
+                <a href="#">About</a>
+              </li>
+              <li class="header__nav__right__list__item">
+                <a href="#">Services</a>
+              </li>
+              <li class="header__nav__right__list__item">
+                <a href="#">Partners</a>
+              </li>
+              <li class="header__nav__right__list__item">
+                <a href="#">Blog</a>
+              </li>
+              <li class="header__nav__right__list__close">
+                <i class="fa-solid fa-x"></i>
+              </li>
+            </ul>
+            <div class="header__nav__right__btns df">
+              <button class="header__nav__right__btns__dark-mode">
+                <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-sun"></i>
+              </button>
+              <button class="header__nav__right__btns__contact">Contact</button>
+              <button class="header__nav__right__btns__hamburger">
+                <span class="header__nav__right__btns__hamburger__line"></span>
+                <span class="header__nav__right__btns__hamburger__line"></span>
+                <span class="header__nav__right__btns__hamburger__line"></span>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section data-aos="flip-left"
+       data-aos-easing="ease-out-cubic"
+       data-aos-duration="2000" class="hero container" id="hero">
+        <div class="hero__left">
+          <h1 class="hero__title">Always Ready To Code.</h1>
+          <p class="hero__desc">
+            Spin up fresh, automated dev environments for each task, in the
+            cloud, in seconds.
+          </p>
+          <button class="hero__mixin-btn">Try Now</button>
+          <div class="hero__btns">
+            <a href="#"><img src="./images/logo.svg" alt="" /></a>
+            <a href="#"><img src="./images/logo-2.svg" alt="" /></a>
+            <a href="#"><img src="./images/logo-3.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="hero__right">
+          <img src="./images/hero-img.svg" alt="" />
+        </div>
+      </section>
+      <section class="about container">
+        <div data-aos="flip-up" class="about__left">
+          <div class="about__info">
+            <h2 class="about__title">Think CI/CD for dev environments</h2>
+            <p class="about__desc">
+              We invented prebuilds so application code, configuration and
+              infrastructure can all be stored as machine-executable code in
+              your git repositories and applied to dev environments
+              automatically and continuously.
+            </p>
+          </div>
+          <div class="about__btns">
+            <button data-aos="zoom-in-down" class="about__more__btn">More on prebuilds</button>
+            <button data-aos="zoom-in-down" class="about__doc__btn">Documentation</button>
+          </div>
+        </div>
+        <div data-aos="fade-right"
+        data-aos-offset="100"
+        data-aos-easing="ease-in-sine" class="about__right">
+          <img src="./images/about-img.png" alt="" />
+        </div>
+      </section>
+      <section class="started container">
+        <h1 class="started__title">Get started now</h1>
+        <div class="started__cards">
+          <div data-aos="flip-left" class="started__card">
+            <div class="started__card__info">
+              <h3 class="strated__card__title">Connect Git repository</h3>
+              <p class="started__card__desc">
+               Select a Git provider to start with an existing project from any
+               Git context.
+              </p>
+            </div>
+            <div class="started__card__btns">
+              <button class="started__card__gitlab-btn"><img src="./images/logo.svg" alt=""><span>Continue with GitLab</span></button>
+              <button class="started__card__githab-btn"><img src="./images/logo-2.svg" alt=""><span>Continue with GitHub</span></button>
+              <button class="started__card__bitbucket-btn"><img src="./images/logo-3.svg" alt=""><span>Continue with Bitbucket</span></button>
+            </div>
+            <p class="started__card__desc">Or prefix any GitLab, GitHub or Bitbucket URL with</p>
+          </div>
+          <div data-aos="flip-right" class="started__card">
+            <div class="started__card__info">
+              <h3 class="strated__card__title">Launch an example workspace</h3>
+              <p class="started__card__desc">
+               Dive into one of our example workspaces
+              </p>
+            </div>
+            <div class="started__card__boxes">
+              <div class="started__card__box df">
+                <div class="started__card__box__left df">
+                  <img src="./images/logo-2.svg" alt="">
+                  <p>Node or TypeScript</p>
+                </div>
+                <button class="btn">Launch workspace</button>
+              </div>
+              <div class="started__card__box df">
+                <div class="started__card__box__left df">
+                  <img src="./images/pyton.svg" alt="">
+                  <p>Node or TypeScript</p>
+                </div>
+                <button class="btn">Launch workspace</button>
+              </div>
+              <div class="started__card__box df">
+                <div class="started__card__box__left df">
+                  <img src="./images/logo-2.svg" alt="">
+                  <p>Node or TypeScript</p>
+                </div>
+                <button class="btn">Launch workspace</button>
+              </div>
+              <div class="started__card__box df">
+                <div class="started__card__box__left df">
+                  <img src="./images/pyton.svg" alt="">
+                  <p>Node or TypeScript</p>
+                </div>
+                <button class="btn">Launch workspace</button>
+              </div>
+              <div class="started__card__box df">
+                <div class="started__card__box__left df">
+                  <img src="./images/pyton.svg" alt="">
+                  <p>Node or TypeScript</p>
+                </div>
+                <button class="btn">Launch workspace</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <div class="footer__card">
+        <div>
+          <h2>Gitpod</h2>
+          <ul class="footer__item">
+            <li class="footer__item__list">Home</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Features</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Pricing</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Changelog</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Self-Hosted</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Developer</h2>
+          <ul class="footer__item">
+            <li class="footer__item__list">Getting started</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Screencasts</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Blog</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Documentation</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Community</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Company</h2>
+          <ul class="footer__item">
+            <li class="footer__item__list">About</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Careers</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Contact</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Changelog</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Media Kit</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Legal</h2>
+          <ul class="footer__item">
+            <li class="footer__item__list">Terms of Service</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Features</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Privacy Policy</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Changelog</li>
+          </ul>
+          <ul class="footer__item">
+            <li class="footer__item__list">Self-Hosted</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+      AOS.init();
+      </script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

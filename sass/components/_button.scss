@@ -1,0 +1,12 @@
+.btn {
+  background-color: var(--primaryColor);
+  padding: 8px 20px;
+  color: var(--secondaryColor);
+  font-size: 12px;
+  border-radius: 12px;
+  transition: 1s;
+  &:hover {
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+  }
+}
